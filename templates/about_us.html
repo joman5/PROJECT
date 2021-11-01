@@ -1,0 +1,141 @@
+<html>
+  <head>
+
+    <title>Fighters</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  </head>
+
+  <body background-color="white">
+    <div class="topnav">
+      <a href="{{url_for ('index')}}">Home</a>
+      <a href="{{url_for ('login')}}">Log in</a>
+      <a class="active" href="{{url_for ('about_us')}}">About us</a>
+      <a href="{{url_for ('precomment')}}">comment</a>
+      <a href="{{url_for ('mariam')}}">mariam foundation</a>
+    </div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/564x/bc/b5/b2/bcb5b2126891f889da193dfb5cc695ac.jpg");
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Fighters will always be here for you.</p>
+  <p>We will help you along you experince & before it & after!</p>
+</div>
+
+<h1 style="text-align:center">What do we provide</h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YfFtVKWp-jzuAfippuC8aN2GAVv86RwsGA&usqp=CAU" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>A safe space to open your heart</h2>
+        <p class="title">chat space</p>
+        <p>you can write any thoughts you have , from your own expirience until you biggest fears</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/7e/4f/91/7e4f912880d3228e8506abc3b0c39554.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>More about breast cancer</h2>
+        <p class="title">information</p>
+        <p>stating real facts, what to expect and more!</p>
+       
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://c.stocksy.com/a/iTTC00/z9/2973254.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Where to find help</h2>
+        <p class="title">foundations and more</p>
+        <p>foundations that can help you</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

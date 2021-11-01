@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fighters</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+
+  <body>
+<div class="topnav">
+  <a href="{{url_for ('index')}}">Home</a>
+  <a href="{{url_for ('login')}}">Log in</a>
+  <a href="{{url_for ('about_us')}}">About us</a>
+</div>
+<br><br><br>
+
+    
+        <form action="/signup" method="POST">
+     <br><center>
+     <h3>Enter your Email and password please:</h3>
+     <br><br>
+    <input type="text" name="email" placeholder="Email" size="30">
+    <br><br>
+    <input type="text" name="password" placeholder="password" size="30">
+    <br><br><br><br>
+    <input type="submit" value="Sign Up">
+    </center>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fighters</title>
+
+
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

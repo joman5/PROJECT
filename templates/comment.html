@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+     <script src="{{ url_for ('static', filename='js/script.js')}}"></script>
+    <title>Fighters</title>
+
+
+  </head>
+<body>
+    <div class="topnav">
+      <a href="{{url_for ('index')}}">Home</a>
+      <a href="{{url_for ('login')}}">Log in</a>
+      <a href="{{url_for ('about_us')}}">About us</a>
+      <a class="active" href="{{url_for ('precomment')}}">comment</a>
+      <a href="{{url_for ('mariam')}}">mariam foundation</a>
+    </div>
+
+<center>
+  {% for post in posts %}
+    <p> {{post.post_text}}</p>  
+      
+
+  {% endfor %}
+  {{blob}}
+  <br><br>
+</center>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<html>
+  <head>
+
+      <title>Fighters</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  </head>
+
+  <body>
+
+    
+    <div class="topnav">
+      <a href="{{url_for ('index')}}">Home</a>
+      <a href="{{url_for ('login')}}">Log in</a>
+      <a href="{{url_for ('about_us')}}">About us</a>
+      <a class="active" href="{{url_for ('precomment')}}">comment</a>
+      <a href="{{url_for ('mariam')}}">mariam foundation</a>
+    </div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+/* Header/Logo Title */
+.header {
+  font-family: "Cursive", Lucida Handwriting, serif;
+  padding: 50px;
+  text-align: center;
+  background-image: url("https://emandkatco.com/wp-content/uploads/2018/09/Hot-Pink-Iridescent-Glitter-Extra-Fine-Em-Kat-Glitter-Factory-Surrey-BC.jpg");
+  color: black;
+  font-size: 30px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Posts</h1>
+  <p>Share with us your thoughts <3</p>
+</div>
+
+
+</body>
+</html>
+<body>
+<form action="/precomment" method="POST">
+<center>
+  <label for="comment" placeholder="Comment" class="comment"></label><br><br>
+
+  <br>
+  <input type="text" id="comment" name="comment"><br><br>
+  <input type="submit" value="Submit">
+  {{blob}}
+  </center>
+</form> 
+
+
+  </body>
+</html>

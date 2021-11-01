@@ -1,0 +1,99 @@
+.MainPage_padding{
+  padding: 64px;
+}
+
+body {
+  background-color: #F8C8DC;
+}
+
+
+.index_img{
+  padding: 64px;
+}
+
+h1{
+  font-family: "Cursive", Lucida Handwriting, serif;
+}
+
+h2{
+  font-family: "Fantasy", Papyrus, serif;
+}
+
+.comment{
+  font-family: "Cursive", Lucida Handwriting, serif;
+  font-size: 250%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #AEC6CF;
+  color: white;
+}
+
+.form a {
+  color: burlywood
+}
+
+.aboutusimg_padding{
+  padding: 64px;
+}

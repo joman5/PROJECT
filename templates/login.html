@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Fighters</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+
+  <body> 
+  <div class="topnav">
+    <a href="{{url_for ('index')}}">Home</a>
+    <a class="active" href="{{url_for ('login')}}">Log in</a>
+    <a href="{{url_for ('about_us')}}">About us</a>
+   
+  </div>
+  <br><br><br>
+
+
+    <center>
+    <div class="form">
+
+          <div id="login">   
+            <h1>Welcome!</h1>
+            
+            <form action="/login" method="POST">
+            
+              <div class="field-wrap">
+              <label>Email  <span class="req"></span>
+              </label>
+              <input name="email" type="email"required autocomplete="off"/ size="30">
+            </div>
+            <br>
+            <div class="field-wrap">
+              <label>
+                Pass*:<span class="req"></span>
+              </label>
+              <input name="pass" type="password"required autocomplete="off"/ size="30">
+            </div> <br><br>
+        
+            <button class="button button-block"/>Log In</button>
+            </form>
+            
+            <br><br><br>
+
+            <h4> Don't have an account? </h4>
+            
+            <button><a href="https://project.jomanghneim.repl.co/signup"><span style="color:#FF0000">Sign Up</a></button>
+
+            
+
+
+          </div>
+          
+        </div><!-- tab-content -->
+        
+  </div> <!-- /form -->
+  </center>
+    </body>
+</html>

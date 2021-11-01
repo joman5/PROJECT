@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.py": [
+      {
+        "id": "68199d85-2267-4725-98a3-d5d198bf1f40",
+        "line": 7,
+        "version": 1283,
+        "index": 142
+      }
+    ],
+    "templates/signup.html": [
+      {
+        "id": "4ae64b0c-922e-4eba-bfd1-dbedb60938fb",
+        "line": 1,
+        "version": 482,
+        "index": 0
+      }
+    ]
+  }
+}
