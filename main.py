@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from database import *
-import requests
 from textblob import TextBlob
 
 app = Flask(__name__)
